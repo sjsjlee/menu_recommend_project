@@ -37,8 +37,6 @@ for n, c in count.most_common(100):
         tags.append(dics['tag'])
 
 
-# In[30]:
-
 
 
 for tag in tag_count :
