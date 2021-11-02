@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[26]:
 
 
 import pandas as pd
@@ -13,14 +12,6 @@ lunch_text = text_file.read()
 print(lunch_text)
 
 
-# In[ ]:
-
-
-
-
-
-# In[27]:
-
 
 from konlpy.tag import Okt
 
@@ -28,13 +19,9 @@ okt = Okt()
 nouns = okt.nouns
 
 
-# In[28]:
-
 
 menu_nouns = okt.nouns(lunch_text)
 
-
-# In[29]:
 
 
 from collections import Counter
@@ -59,19 +46,14 @@ for tag in tag_count :
     print("{}".format(tag['count']))
 
 
-# In[65]:
-
 
 count.most_common(100)
 
 
-# In[106]:
 
 
 word_counter =count.most_common(30)
 
-
-# In[111]:
 
 
 word_data = pd.DataFrame(word_counter,
@@ -80,7 +62,6 @@ word_data = pd.DataFrame(word_counter,
 word_data
 
 
-# In[96]:
 
 
 import matplotlib.pyplot as plt
@@ -92,13 +73,8 @@ plt.rc('font', size =5)
 plt.show()
 
 
-# In[66]:
-
-
 import seaborn as sns
 
-
-# In[83]:
 
 
 import matplotlib.font_manager as fm
@@ -108,14 +84,8 @@ font_list = fm.findSystemFonts(fontpaths = None, fontext = 'ttf')
 font_list[:]
 
 
-# In[108]:
-
-
 path = 'C:\\Users\\samsung\\Downloads\\NanumBarunGothic.ttf'
 fontprop = fm.FontProperties(fname=path, size = 18)
-
-
-# In[110]:
 
 
 fig, ax = plt.subplots(figsize = (10,10))
@@ -129,8 +99,6 @@ ax.set_title("lunch menu count")
 plt.rcParams["font.family"] = 'NanumGothic'
 plt.rc('font', size = 15)
 
-
-# In[ ]:
 
 
 
