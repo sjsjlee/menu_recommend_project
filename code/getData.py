@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import time
 from selenium import webdriver
@@ -141,8 +136,6 @@ for date in date_list:
             dates_list.append(date_i)'''
 
 
-# In[ ]:
-
 
 import pandas as pd
 
@@ -153,13 +146,8 @@ df = pd.DataFrame({
 })
 
 
-# In[ ]:
-
 
 df.head()
-
-
-# In[ ]:
 
 
 df.to_csv('seocho_review_crawling.csv')
