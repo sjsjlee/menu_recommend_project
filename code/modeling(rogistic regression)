@@ -41,9 +41,3 @@ Y_pred=logit.predict(X_test)
 test['만족여부예측'] = Y_pred
 
 test.head()
-
-
-
-from sklearn.metrics import roc_auc_score, roc_curve
-
-print('roc_auc_score : {0:.3f}'.format(roc_auc_score(Y_test, Y_pred)))
