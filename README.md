@@ -23,4 +23,5 @@ __2. Logistic Regression__
     식사만족여부에 영향을 미치는 독립변수들을 통해 로짓회귀모델을 구축한 후 만족여부를 예측할 수 있는 모델을 완성했다.  
     
 ## [Presentation(pdf file)](https://github.com/sjsjlee/menu_recommend_project/blob/main/menu_recommend_project.pdf)
+최종 발표회때 사용한 프레젠테이션 자료입니다. 분석결과를 정리했습니다.
    
