@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-
 
 import pandas as pd
 
@@ -51,7 +47,6 @@ count.most_common(100)
 
 
 word_counter =count.most_common(30)
-
 
 
 word_data = pd.DataFrame(word_counter,
