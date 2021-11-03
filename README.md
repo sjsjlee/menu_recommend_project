@@ -18,8 +18,9 @@ __식사 메뉴 추천 시스템 구현을 위한 데이터 분석 프로젝트_
 ## 4. Result
 __1. Decison Tree Learning__  
     사용자의 특성 및 상황에 따른 식사메뉴를 예측할 수 있는 모델을 완성했다.  
+    
 __2. Logistic Regression__  
     식사만족여부에 영향을 미치는 독립변수들을 통해 로짓회귀모델을 구축한 후 만족여부를 예측할 수 있는 모델을 완성했다.  
     
-## 
-    
+## [Presentation(pdf file)](https://github.com/sjsjlee/menu_recommend_project/blob/main/menu_recommend_project.pdf)
+   
