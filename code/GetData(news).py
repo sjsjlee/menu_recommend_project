@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-#완성 코드
 
 num_list =[]
 
