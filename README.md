@@ -10,12 +10,20 @@ __식사 메뉴 추천 시스템 구현을 위한 데이터 분석 프로젝트_
 1. 식사메뉴 데이터
 2. 식사메뉴 추천 모델 구현을 위한 설문 데이터
 
-## 3. Modeling
+## 3. Tool&Langauges
+* Python
+* Jupyter Notebook
+* Pandas
+* Beautiful Soup
+* Selenium
+* Scikit Learn
+
+## 4. Modeling
 ### 사용한 모델링 기법
 - Decison Tree Learning
 - Logistic Regression
 
-## 4. Result
+## 5. Result
 __1. Decison Tree Learning__  
     사용자의 특성 및 상황에 따른 식사메뉴를 예측할 수 있는 모델을 완성했다.  
     
